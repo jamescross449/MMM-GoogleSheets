@@ -38,3 +38,24 @@ git clone https://github.com/Prog-Party/MMM-GoogleSheets.git
   }
 },
 ```
+
+### Configuration options
+
+The following properties can be configured:
+
+
+<table width="100%">
+	<thead>
+		<tr>
+			<th>Option</th>
+			<th width="100%">Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>{Option}</code></td>
+			<td>{Description}</td>
+		</tr>
+  </tbody>
+</table>
+    
