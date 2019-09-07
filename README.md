@@ -6,10 +6,32 @@ A MagicMirror² (https://magicmirror.builders) module to display Google Sheets i
 
 
 ## Installation
-```shell
+In your terminal, go to your MagicMirror's Module folder:
+````
 cd ~/MagicMirror/modules
+````
+
+Clone this repository:
+````
 git clone https://github.com/Prog-Party/MMM-GoogleSheets.git
-```
+````
+
+Go to the modules folder:
+````
+cd MMM-GoogleSheets
+````
+
+Install the dependencies:
+````
+npm install
+````
+
+Add the module to the modules array in the `config/config.js` file:
+````javascript
+    {
+        module: 'MMM-GoogleSheets'
+    },
+````
 
 ## Configuration
 Add MMM-GoogleSheets to ../MagicMirror/config/config.js:
