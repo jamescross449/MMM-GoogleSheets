@@ -12,6 +12,8 @@ git clone https://github.com/Prog-Party/MMM-GoogleSheets.git
 ```
 
 ## Configuration
+Add MMM-GoogleSheets to ../MagicMirror/config/config.js:
+
 ### Simple Version
 ```javascript
 {
@@ -25,20 +27,6 @@ git clone https://github.com/Prog-Party/MMM-GoogleSheets.git
   }
 },
 ```
-### Default values and details
-```javascript
-{
-  module: "MMM-GoogleSheets",
-  position: "top_right",
-  config: {
-    events: [
-      {
-      },
-    ]
-  }
-},
-```
-
 ### Configuration options
 
 The following properties can be configured:
@@ -57,5 +45,4 @@ The following properties can be configured:
 			<td>{Description}</td>
 		</tr>
   </tbody>
-</table>
-    
+</table>  
